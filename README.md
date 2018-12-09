@@ -1,5 +1,9 @@
 # KMNIST-chainer
 
+## requirements
+- numpy
+- chainer >= 6.0.0b1
+
 ## quick start
 Download KMNIST datasets.
 ```
