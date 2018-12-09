@@ -2,7 +2,7 @@
 
 ## requirements
 - numpy
-- chainer >= 6.0.0b1
+- chainer >= 6.0.0b1 (for chainerx)
 
 ## quick start
 Download KMNIST datasets.
