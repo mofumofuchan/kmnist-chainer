@@ -115,7 +115,6 @@ def main():
                 reshape((10000, 784)).astype(np.float32)/255.
     test_labels = [int(n) for n in np.load(args.test_label)['arr_0']]
     test = TupleDataset(test_data, test_labels)
-    import pdb; pdb.set_trace()
 
     train_iter = chainer.iterators.SerialIterator(train, args.batchsize)
     test_iter = chainer.iterators.SerialIterator(test, args.batchsize,
